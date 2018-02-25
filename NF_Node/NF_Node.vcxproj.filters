@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="NF_Node.cpp" />
+    <ClCompile Include="Network\Network.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PeerListener.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Socket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Mutex.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="System\Thread.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Network_Windows.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\PeerConnection.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\KnownPeerManager.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="CPPUtils.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Network\Network.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\PeerListener.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Socket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Mutex.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="System\Thread.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\PeerConnection.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\KnownPeerManager.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="CPPUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{14b8a1c5-a444-400c-b19d-9932d378f09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{938aaa0a-66e0-4e0a-a9c9-63469ce08f8e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

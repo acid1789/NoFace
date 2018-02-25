@@ -1,0 +1,5 @@
+
+
+-== P2P Node Layer ==-
+TCP Connections between nodes
+Hardcoded Seed nodes

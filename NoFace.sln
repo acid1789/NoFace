@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NF_Node", "NF_Node\NF_Node.vcxproj", "{87901011-D9DA-4497-86C6-302AB5E245BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9F7D484F-F7DC-4A20-A22B-8D06E7D37335}"
+	ProjectSection(SolutionItems) = preProject
+		Design.txt = Design.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87901011-D9DA-4497-86C6-302AB5E245BC}.Debug|x64.ActiveCfg = Debug|x64
+		{87901011-D9DA-4497-86C6-302AB5E245BC}.Debug|x64.Build.0 = Debug|x64
+		{87901011-D9DA-4497-86C6-302AB5E245BC}.Debug|x86.ActiveCfg = Debug|Win32
+		{87901011-D9DA-4497-86C6-302AB5E245BC}.Debug|x86.Build.0 = Debug|Win32
+		{87901011-D9DA-4497-86C6-302AB5E245BC}.Release|x64.ActiveCfg = Release|x64
+		{87901011-D9DA-4497-86C6-302AB5E245BC}.Release|x64.Build.0 = Release|x64
+		{87901011-D9DA-4497-86C6-302AB5E245BC}.Release|x86.ActiveCfg = Release|Win32
+		{87901011-D9DA-4497-86C6-302AB5E245BC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {543F0259-6252-4384-AE8E-A3B05A194AC5}
+	EndGlobalSection
+EndGlobal
